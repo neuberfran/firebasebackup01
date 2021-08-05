@@ -1,14 +1,14 @@
 
 export const environment = {
-  production: true,
+  production: false,
  
   firebase: {
-    apiKey: "AIzaSyChfxrbgd5OEJlgy7aw8D7pvlaHsPM1hlI",
-    authDomain: "casaminha-2e0ca.firebaseapp.com",
-    databaseURL: "https://casaminha-2e0ca.firebaseio.com",
-    projectId: "casaminha-2e0ca",
-    storageBucket: "casaminha-2e0ca.appspot.com",
-    messagingSenderId: "567617726062"
+    apiKey: "AIzaSyBkfUlQidm38P4uf5qKeKAcb0191X6oqHs",
+    authDomain: "garagem-1f07e.firebaseapp.com",
+    projectId: "garagem-1f07e",
+    storageBucket: "garagem-1f07e.appspot.com",
+    messagingSenderId: "103300794819",
+    appId: "1:103300794819:web:6a16e47bf92fae26ad9576"
   },
-  clientId: "567617726062-9r9upj4tip1nfdupm3iin2ld6t7coa0t.apps.googleusercontent.com"
+  clientId: "103300794819-ntj6o94hfquqlrj9qsv2asnprt8gahi9.apps.googleusercontent.com"
 };

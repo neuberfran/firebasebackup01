@@ -2,7 +2,9 @@ const functions = require('firebase-functions');
 const { firestore } = require('../admin');
 const { smarthome } = require('actions-on-google');
 const Device = require('./device-model');
-const uuid = require('uuid/v4');
+//const uuid = require('uuid/v4');
+const { v4: uuidv4 } = require('uuid');
+uuidv4(); // ⇨ '1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed'
 
 const homegraph = smarthome({
   jwt: require('./service-account.json')
